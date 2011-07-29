@@ -83,7 +83,7 @@ class Caculator
     return m
   end
 
-  def caculate()
+  def caculate(homeTeamId, awayTeamId)
  
     homeTeam = findTeamById(homeTeamId)
     gastTeam = findTeamById(awayTeamId)
